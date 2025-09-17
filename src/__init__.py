@@ -1,24 +1,31 @@
 """
-SocialBot AI - Bot de Automação para Redes Sociais com IA
+SocialBot AI - Automação Inteligente para Redes Sociais
 
-Um sistema completo de automação para redes sociais que combina
-inteligência artificial avançada com arquitetura robusta de produção.
+Um bot avançado que automatiza suas redes sociais usando IA para gerar conteúdo,
+agendar posts e analisar engajamento em tempo real.
+
+Autor: Seu Nome
+Versão: 1.0.0
+Licença: MIT
 """
 
 __version__ = "1.0.0"
-__author__ = "SocialBot AI Team"
-__email__ = "socialbot.ai@gmail.com"
-__description__ = "Bot de Automação para Redes Sociais com IA"
+__author__ = "Seu Nome"
+__email__ = "seu.email@exemplo.com"
+__description__ = "Bot de automação inteligente para redes sociais com IA"
 
-# Imports principais
-from .main import SocialBotAI
-from .bot.social_bot import SocialBot
-from .utils.config import Config
-from .utils.logger import Logger
+# Importações principais
+from .bot import SocialBot
+from .ai import ContentGenerator, SentimentAnalyzer
+from .analytics import EngagementTracker, ReportGenerator
+from .utils import Config, Logger
 
 __all__ = [
-    "SocialBotAI",
-    "SocialBot", 
+    "SocialBot",
+    "ContentGenerator", 
+    "SentimentAnalyzer",
+    "EngagementTracker",
+    "ReportGenerator",
     "Config",
     "Logger"
 ]

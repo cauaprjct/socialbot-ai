@@ -49,93 +49,94 @@ class SocialBotAI:
             raise
     
     async def start(self):
-        """Inicia o SocialBot AI"""
+        """Inicia o bot e todos os serviços"""
         try:
-            self.logger.info("🎆 Iniciando SocialBot AI...")
-            
-            # Inicia o bot
-            if self.bot:
-                await self.bot.start()
-            
-            # Inicia o dashboard em background
-            if self.dashboard:
-                asyncio.create_task(self.dashboard.run())
+            await self.initialize()
             
             self.running = True
-            self.logger.info("✅ SocialBot AI iniciado com sucesso!")
+            self.logger.info("🎯 SocialBot AI iniciado!")
             
-            # Mantém o programa rodando
-            await self._keep_alive()
+            # Configura handlers para shutdown graceful
+            signal.signal(signal.SIGINT, self._signal_handler)
+            signal.signal(signal.SIGTERM, self._signal_handler)
             
+            # Inicia o bot em background
+            bot_task = asyncio.create_task(self.bot.start())
+            
+            # Inicia o dashboard
+            dashboard_task = asyncio.create_task(self.dashboard.start())
+            
+            # Aguarda ambos os serviços
+            await asyncio.gather(bot_task, dashboard_task)
+            
+        except KeyboardInterrupt:
+            self.logger.info("🛑 Interrupção pelo usuário")
         except Exception as e:
-            self.logger.error(f"❌ Erro ao iniciar SocialBot AI: {e}")
-            raise
+            self.logger.error(f"❌ Erro durante execução: {e}")
+        finally:
+            await self.stop()
     
     async def stop(self):
-        """Para o SocialBot AI graciosamente"""
+        """Para o bot e limpa recursos"""
+        if not self.running:
+            return
+            
+        self.logger.info("🛑 Parando SocialBot AI...")
+        self.running = False
+        
         try:
-            self.logger.info("🛑 Parando SocialBot AI...")
-            
-            self.running = False
-            
-            # Para o bot
             if self.bot:
                 await self.bot.stop()
-            
-            # Para o dashboard
+                
             if self.dashboard:
                 await self.dashboard.stop()
-            
+                
             self.logger.info("✅ SocialBot AI parado com sucesso!")
             
         except Exception as e:
             self.logger.error(f"❌ Erro ao parar SocialBot AI: {e}")
     
-    async def _keep_alive(self):
-        """Mantém o programa rodando"""
-        try:
-            while self.running:
-                await asyncio.sleep(1)
-        except KeyboardInterrupt:
-            self.logger.info("👋 Interrupção do usuário detectada")
-            await self.stop()
-    
-    def _setup_signal_handlers(self):
-        """Configura handlers para sinais do sistema"""
-        def signal_handler(signum, frame):
-            self.logger.info(f"🚨 Sinal {signum} recebido, parando...")
-            asyncio.create_task(self.stop())
-        
-        signal.signal(signal.SIGINT, signal_handler)
-        signal.signal(signal.SIGTERM, signal_handler)
+    def _signal_handler(self, signum, frame):
+        """Handler para sinais de sistema"""
+        self.logger.info(f"📡 Sinal recebido: {signum}")
+        self.running = False
 
 
 async def main():
     """Função principal"""
-    app = SocialBotAI()
-    
     try:
-        # Configura handlers de sinal
-        app._setup_signal_handlers()
+        # Banner de inicialização
+        print("""
+╔══════════════════════════════════════════════════════════════╗
+║                        🤖 SocialBot AI                       ║
+║                                                              ║
+║           Automação Inteligente para Redes Sociais          ║
+║                                                              ║
+║  🐦 Twitter  📸 Instagram  💼 LinkedIn  🎵 TikTok           ║
+║  🧠 IA       📊 Analytics  📅 Agendamento  🔄 Auto-resposta ║
+╚══════════════════════════════════════════════════════════════╝
+        """)
         
-        # Inicializa e inicia
-        await app.initialize()
-        await app.start()
+        # Cria e inicia o bot
+        socialbot_ai = SocialBotAI()
+        await socialbot_ai.start()
         
-    except KeyboardInterrupt:
-        print("
-👋 Encerrando SocialBot AI...")
     except Exception as e:
         print(f"❌ Erro fatal: {e}")
         sys.exit(1)
-    finally:
-        await app.stop()
 
 
 if __name__ == "__main__":
-    # Configurações do asyncio para Windows
-    if sys.platform == "win32":
-        asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
+    # Verifica versão do Python
+    if sys.version_info < (3, 8):
+        print("❌ Python 3.8+ é necessário!")
+        sys.exit(1)
     
-    # Executa a aplicação
-    asyncio.run(main())
+    # Executa o bot
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        print("\n👋 SocialBot AI finalizado!")
+    except Exception as e:
+        print(f"❌ Erro: {e}")
+        sys.exit(1)
