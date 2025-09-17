@@ -1,58 +1,81 @@
-# 🤖 **SocialBot AI** - Bot de Automação para Redes Sociais
+# 🤖 SocialBot AI - Template de Automação para Redes Sociais
 
 <div align="center">
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](Dockerfile)
-[![AI](https://img.shields.io/badge/AI-OpenAI%20%2B%20HuggingFace-orange.svg)](#)
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)](#)
+[![Template](https://img.shields.io/badge/Status-Template%2FShowcase-yellow.svg)](#)
+[![Architecture](https://img.shields.io/badge/Architecture-Production%20Ready-green.svg)](#)
+[![AI](https://img.shields.io/badge/AI-OpenAI%20%2B%20HuggingFace-purple.svg)](#)
+[![Contact](https://img.shields.io/badge/Hire%20Me-Available%20for%20Projects-brightgreen.svg)](#-contrate-meus-serviços)
 
-**🚀 Automatize suas redes sociais com IA de última geração!**
+**🎯 Template Profissional de Bot para Automação de Redes Sociais com IA**
 
-[📖 Documentação](#-documentação) • [🚀 Instalação](#-instalação-em-3-minutos) • [💡 Exemplos](#-exemplos-práticos) • [🤝 Contribuir](#-contribuindo)
+*Demonstração das minhas habilidades em desenvolvimento de sistemas complexos de automação*
 
----
+![SocialBot AI Template](https://via.placeholder.com/900x400/2E86AB/ffffff?text=🤖+SocialBot+AI+Template+📋)
 
-### 🌟 **Transforme sua presença digital com automação inteligente**
+[💼 **Contratar Serviços**](#-contrate-meus-serviços) • [🔧 **Ver Arquitetura**](#-arquitetura-do-sistema) • [📚 **Documentação**](docs/) • [💡 **Funcionalidades**](#-funcionalidades-demonstradas)
 
 </div>
 
-## 🎯 **Visão Geral**
+---
 
-O **SocialBot AI** é uma solução completa de automação para redes sociais que combina **inteligência artificial avançada** com **arquitetura robusta de produção**. Publique conteúdo automaticamente, responda interações e analise engajamento em múltiplas plataformas.
+## ⚠️ **IMPORTANTE: Este é um Template/Showcase**
+
+> **🎯 Este repositório é uma demonstração das minhas habilidades técnicas em desenvolvimento de sistemas complexos de automação para redes sociais.**
+> 
+> **💼 Não é um produto final funcionando, mas sim um template profissional que mostra minha capacidade de:**
+> - Arquitetar sistemas robustos e escaláveis
+> - Integrar múltiplas APIs e serviços de IA
+> - Implementar padrões de design avançados
+> - Criar documentação técnica completa
+> 
+> **🚀 Interessado em ter um sistema como este funcionando? [Entre em contato!](#-contrate-meus-serviços)**
+
+---
+
+## 🌟 **Funcionalidades Demonstradas**
 
 <table>
 <tr>
 <td width="50%">
 
-### 📱 **Plataformas Suportadas**
-- 🐦 **Twitter/X**: Posts, threads, respostas automáticas
-- 📸 **Instagram**: Stories, posts, reels (em desenvolvimento)
-- 💼 **LinkedIn**: Conteúdo profissional otimizado
-- 🎵 **TikTok**: Em desenvolvimento (próxima versão)
+### 🎯 **Capacidades Técnicas Demonstradas**
+- 📅 **Arquitetura Assíncrona**: Sistema não-bloqueante com asyncio
+- 🤖 **Integração de IA**: OpenAI GPT + Hugging Face Transformers
+- 📊 **Monitoramento Avançado**: Métricas Prometheus + Grafana
+- 🔄 **Padrões de Resiliência**: Circuit Breaker + Retry Logic
+- ⚡ **Rate Limiting**: Controle inteligente de requisições
+
+### 🌐 **Integrações Multi-Plataforma**
+- 🐦 **Twitter/X API**: Implementação completa v2
+- 📸 **Instagram Graph API**: Posts e Stories automatizados
+- 💼 **LinkedIn API**: Conteúdo profissional otimizado
+- 🔗 **Webhooks**: Sistema de notificações em tempo real
 
 </td>
 <td width="50%">
 
-### 🧠 **IA de Última Geração**
-- 🎨 **Hugging Face Transformers**: Modelos de linguagem avançados
-- 🔮 **OpenAI Integration**: GPT para conteúdo premium
-- 📈 **Análise de Sentimento**: Multi-modelo para precisão máxima
-- 🎯 **Targeting Inteligente**: Audiência certa, hora certa
-- 🔍 **Trend Detection**: Detecta tendências automaticamente
+### 🧠 **Stack Tecnológico Avançado**
+- 🎨 **Python 3.11+**: Código moderno e performático
+- 🔮 **FastAPI + Streamlit**: APIs REST + Dashboard interativo
+- 📈 **PostgreSQL + Redis**: Persistência + Cache distribuído
+- 🐳 **Docker + Kubernetes**: Containerização e orquestração
+- 🔄 **CI/CD**: Pipeline automatizado com GitHub Actions
 
-### 🛠 **Integrações Poderosas**
-- 📅 **Google Calendar**: Sincroniza com seus eventos
-- 📊 **Banco de Dados**: PostgreSQL/SQLite para dados
-- 🗃️ **APIs RESTful**: Integre com qualquer ferramenta
-- 🔗 **Webhooks**: Automação completa de workflows
+### 🔒 **Segurança e Qualidade**
+- 🔐 **Autenticação JWT**: Sistema seguro de tokens
+- 🛡️ **Validação de Entrada**: Proteção contra ataques
+- 📋 **Logs Estruturados**: Rastreamento completo
+- 🧪 **Testes Automatizados**: Cobertura de código
+- 📈 **Métricas**: Observabilidade completa
 
 </td>
 </tr>
 </table>
 
-## 🎬 **Demo em Ação**
+## 🎨 **Demonstração Visual**
 
 <div align="center">
 
@@ -61,60 +84,48 @@ O **SocialBot AI** é uma solução completa de automação para redes sociais q
 | ![Dashboard](https://via.placeholder.com/300x200/4CAF50/ffffff?text=📊+Dashboard) | ![AI Content](https://via.placeholder.com/300x200/FF9800/ffffff?text=🤖+AI+Content) | ![Scheduling](https://via.placeholder.com/300x200/2196F3/ffffff?text=📅+Schedule) |
 | Interface intuitiva e moderna | IA gera conteúdo contextual | Agendamento inteligente |
 
-</div>
-
-## 🛡️ **Arquitetura de Produção** ⭐ **NOVO!**
-
-<div align="center">
-
-### 🏗️ **Sistema Robusto e Escalável**
+*Mockups de demonstração - Sistema real seria desenvolvido sob medida*
 
 </div>
 
-<table>
-<tr>
-<td width="50%">
+## 🔧 **Arquitetura do Sistema**
 
-### 🔧 **Resiliência Avançada**
-- **🔄 Circuit Breaker**: Proteção contra falhas em cascata
-- **⚡ Retry Inteligente**: Backoff exponencial com jitter
-- **🏥 Health Checks**: Monitoramento automático de saúde
-- **🚨 Exception Handling**: Sistema robusto de tratamento de erros
-- **⏱️ Timeout Management**: Controle inteligente de timeouts
+```mermaid
+graph TB
+    A[🌐 Dashboard Web] --> B[🤖 SocialBot Core]
+    B --> C[🧠 AI Engine]
+    B --> D[📱 Platform Bots]
+    B --> E[📊 Analytics]
+    B --> F[⏰ Scheduler]
+    
+    C --> C1[🔮 OpenAI GPT]
+    C --> C2[🤗 Hugging Face]
+    C --> C3[📈 Sentiment Analysis]
+    
+    D --> D1[🐦 Twitter Bot]
+    D --> D2[📸 Instagram Bot]
+    D --> D3[💼 LinkedIn Bot]
+    
+    E --> E1[📊 Engagement Metrics]
+    E --> E2[👥 Audience Analysis]
+    E --> E3[📈 Growth Tracking]
+    
+    F --> F1[⏰ Smart Scheduling]
+    F --> F2[🔄 Auto Posting]
+    F --> F3[📅 Calendar Sync]
+    
+    B --> G[💾 Database]
+    B --> H[🗄️ Cache Redis]
+    B --> I[📋 Logging]
+```
 
-### 📊 **Observabilidade Completa**
-- **📈 Métricas Prometheus**: Monitoramento profissional
-- **📋 Logs Estruturados**: Rich formatting e contexto
-- **🎯 Tracing Distribuído**: Análise de performance
-- **🔍 Error Tracking**: Sentry integration
-- **📊 Custom Dashboards**: Grafana ready
-
-</td>
-<td width="50%">
-
-### ⚡ **Performance Otimizada**
-- **🔗 Connection Pooling**: Reutilização eficiente de conexões
-- **💾 Cache Distribuído**: Redis para alta performance
-- **🔀 Load Balancing**: Distribuição inteligente de carga
-- **📦 Async Architecture**: Processamento não-bloqueante
-- **🎛️ Rate Limiting**: Controle avançado de requisições
-
-### 🔒 **Segurança Enterprise**
-- **🔐 API Key Encryption**: Credenciais protegidas
-- **🛡️ Input Validation**: Validação robusta de entrada
-- **📝 Audit Logging**: Rastreamento de todas as ações
-- **🚫 Rate Limiting**: Proteção contra abuso
-- **🔑 JWT Authentication**: Autenticação segura
-
-</td>
-</tr>
-</table>
-
-## 🚀 **Instalação em 3 Minutos**
+## 📋 **Como Explorar Este Template**
 
 <div align="center">
 
-### 🎯 **Escolha seu método preferido:**
+### 🎯 **Métodos para Analisar o Código:**
+
+> **⚠️ Lembre-se: Este é um template/demonstração. Para um sistema funcionando, [contrate meus serviços](#-contrate-meus-serviços)!**
 
 </div>
 
@@ -122,93 +133,156 @@ O **SocialBot AI** é uma solução completa de automação para redes sociais q
 <tr>
 <td width="33%">
 
-### 🐳 **Docker (Recomendado)**
-*Mais fácil e rápido*
+### 📁 **Explorar Código**
+*Análise da arquitetura*
 
 ```bash
-# 1. Clone o projeto
+# 1. Clone o template
 git clone https://github.com/cauaprjct/socialbot-ai.git
 cd socialbot-ai
 
-# 2. Configure APIs
-cp .env.example .env
-# Edite .env com suas credenciais
+# 2. Explore a estrutura
+tree src/  # Veja a organização
+cat docs/API.md  # Leia a documentação
 
-# 3. Execute tudo
-docker-compose up -d
-
-# 4. Acesse o dashboard
-# http://localhost:8501
+# 3. Analise os padrões
+# - Arquitetura modular
+# - Padrões de design
+# - Testes automatizados
+# - CI/CD pipeline
 ```
 
-✅ **Vantagens:**
-- Setup automático
-- Banco de dados incluído
-- Pronto para produção
+📋 **O que você verá:**
+- Código bem estruturado
+- Documentação completa
+- Padrões profissionais
 
 </td>
 <td width="33%">
 
-### 🐍 **Python Local**
-*Controle total*
+### 🔍 **Analisar Funcionalidades**
+*Demonstração técnica*
 
 ```bash
-# 1. Clone e configure
-git clone https://github.com/cauaprjct/socialbot-ai.git
-cd socialbot-ai
+# 1. Veja os exemplos
+cat examples/basic_usage.py
+cat examples/advanced_features_demo.py
 
-# 2. Ambiente virtual
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate  # Windows
+# 2. Analise os testes
+pytest tests/ -v
 
-# 3. Instale dependências
-pip install -r requirements.txt
-
-# 4. Configure e execute
-cp .env.example .env
-python run.py
+# 3. Explore a documentação
+# - docs/API.md
+# - docs/DEPLOYMENT.md
+# - README.md (este arquivo)
 ```
 
-✅ **Vantagens:**
-- Desenvolvimento ágil
-- Debug facilitado
-- Customização total
+🎯 **Demonstrações:**
+- Integração com APIs
+- Padrões de IA
+- Arquitetura escalável
 
 </td>
 <td width="33%">
 
-### ⚡ **Setup Automático**
-*Um comando só*
+### 💼 **Contratar Desenvolvimento**
+*Sistema real funcionando*
 
 ```bash
-# 1. Clone o projeto
-git clone https://github.com/cauaprjct/socialbot-ai.git
-cd socialbot-ai
+# Quer um sistema funcionando?
+# 1. Entre em contato comigo
+# 2. Discutimos seus requisitos
+# 3. Desenvolvo sob medida
+# 4. Entrego com documentação
 
-# 2. Execute setup automático
-chmod +x scripts/setup.sh
-./scripts/setup.sh
-
-# 3. Configure APIs
-# O script vai guiá-lo
-
-# 4. Pronto!
-# Dashboard já estará rodando
+# Exemplos do que posso fazer:
+# - Bot multi-plataforma
+# - IA personalizada
+# - Dashboard customizado
+# - Integrações específicas
 ```
 
-✅ **Vantagens:**
-- Zero configuração
-- Detecção automática
-- Guia interativo
+🚀 **Vantagens:**
+- Sistema personalizado
+- Suporte completo
+- Código profissional
 
 </td>
 </tr>
 </table>
 
-## ⚙️ **Configuração de APIs**
+### 💡 **Quer Ver Funcionando?**
 
-### 🔑 **Credenciais Necessárias**
+```bash
+# Este é apenas um template/demonstração
+# Para um sistema real funcionando:
+
+# 1. Entre em contato comigo
+# 2. Discutimos suas necessidades
+# 3. Desenvolvo personalizado
+# 4. Entrego funcionando 100%
+
+# 💰 Investimento a partir de R$ 2.500
+# 🚀 Entrega em 2-12 semanas
+# 🔧 Suporte incluído
+```
+
+## 📊 **Demonstração: Dashboard Web**
+
+<div align="center">
+
+**🎯 Exemplo do que posso desenvolver para você**
+
+![Dashboard Preview](https://via.placeholder.com/800x450/1f77b4/ffffff?text=🚀+Dashboard+Personalizado+🎯)
+
+*Mockup de dashboard - Sistema real seria desenvolvido sob medida*
+
+</div>
+
+### 🎛️ **Funcionalidades que Posso Implementar:**
+
+<table>
+<tr>
+<td width="50%">
+
+#### 📝 **Criação de Conteúdo**
+- ✍️ Editor de posts com preview
+- 🤖 Geração automática com IA
+- 🏷️ Sugestão de hashtags inteligentes
+- 📸 Upload de mídia (imagens/vídeos)
+- 🎨 Templates personalizáveis
+
+#### 📅 **Agendamento Avançado**
+- ⏰ Calendário visual interativo
+- 🎯 Horários otimizados por IA
+- 🔄 Posts recorrentes
+- 📊 Fila de publicação
+- ⚡ Publicação instantânea
+
+</td>
+<td width="50%">
+
+#### 📈 **Analytics Detalhados**
+- 📊 Gráficos interativos em tempo real
+- 📉 Métricas de engajamento
+- 🎯 Performance por plataforma
+- 📈 Crescimento de seguidores
+- 📋 Relatórios exportáveis
+
+#### 🤖 **Automação Inteligente**
+- 💬 Respostas automáticas
+- 🔍 Monitoramento de menções
+- 🎯 Segmentação de audiência
+- 📈 Otimização de horários
+- 🔔 Alertas personalizados
+
+</td>
+</tr>
+</table>
+
+## ⚙️ **Configuração de APIs (Exemplo)**
+
+### 🔑 **Credenciais Necessárias (Para Sistema Real)**
 
 <details>
 <summary>🐦 <strong>Twitter/X API</strong> (Clique para expandir)</summary>
@@ -287,9 +361,9 @@ METRICS_PORT=9090
 SENTRY_DSN=
 ```
 
-## 💡 **Exemplos Práticos**
+## 💡 **Exemplos Práticos (Demonstração)**
 
-### 🚀 **Uso Básico**
+### 🚀 **Uso Básico (Conceitual)**
 
 ```python
 from socialbot import SocialBotAI
@@ -307,7 +381,7 @@ result = await bot.post(
 print(f"Post publicado: {result.url}")
 ```
 
-### 🧠 **Geração com IA**
+### 🧠 **Geração com IA (Conceitual)**
 
 ```python
 # Gera conteúdo com IA
@@ -322,7 +396,7 @@ content = await bot.generate_content(
 result = await bot.post_generated_content(content)
 ```
 
-### ⏰ **Agendamento Inteligente**
+### ⏰ **Agendamento Inteligente (Conceitual)**
 
 ```python
 from datetime import datetime, timedelta
@@ -342,7 +416,7 @@ for i, topic in enumerate(topics):
 print("✅ Posts agendados para a próxima semana!")
 ```
 
-### 📊 **Analytics e Métricas**
+### 📊 **Analytics e Métricas (Conceitual)**
 
 ```python
 # Obtém métricas dos últimos 30 dias
@@ -355,37 +429,6 @@ print(f"   Taxa de engajamento: {analytics.engagement_rate:.2f}%")
 print(f"   Melhor horário: {analytics.best_time}")
 ```
 
-## 🏗️ **Arquitetura do Sistema**
-
-```mermaid
-graph TB
-    A[🌐 Dashboard Web] --> B[🤖 SocialBot Core]
-    B --> C[🧠 AI Engine]
-    B --> D[📱 Platform Bots]
-    B --> E[📊 Analytics]
-    B --> F[⏰ Scheduler]
-    
-    C --> C1[🔮 OpenAI GPT]
-    C --> C2[🤗 Hugging Face]
-    C --> C3[📈 Sentiment Analysis]
-    
-    D --> D1[🐦 Twitter Bot]
-    D --> D2[📸 Instagram Bot]
-    D --> D3[💼 LinkedIn Bot]
-    
-    E --> E1[📊 Engagement Metrics]
-    E --> E2[👥 Audience Analysis]
-    E --> E3[📈 Growth Tracking]
-    
-    F --> F1[⏰ Smart Scheduling]
-    F --> F2[🔄 Auto Posting]
-    F --> F3[📅 Calendar Sync]
-    
-    B --> G[💾 Database]
-    B --> H[🗄️ Cache Redis]
-    B --> I[📋 Logging]
-```
-
 ## 📁 **Estrutura do Projeto**
 
 ```
@@ -396,7 +439,7 @@ socialbot-ai/
 │   ├── 📊 analytics/         # Sistema de analytics
 │   ├── 🎨 dashboard/         # Interface web
 │   ├── 🔗 integrations/      # Integrações externas
-│   └── 🛠️ utils/             # Utilitários e helpers
+│   └── 🔧 utils/             # Utilitários e helpers
 ├── 📂 tests/                 # Testes automatizados
 ├── 📂 docs/                  # Documentação
 ├── 📂 examples/              # Exemplos de uso
@@ -406,7 +449,7 @@ socialbot-ai/
 └── 📖 README.md              # Este arquivo
 ```
 
-## 🧪 **Testando o Sistema**
+## 🧪 **Testando o Sistema (Template)**
 
 ### 🔧 **Testes das Melhorias**
 
@@ -437,7 +480,7 @@ curl http://localhost:8000/health
 curl http://localhost:8000/circuit-breakers
 ```
 
-## 🗺️ **Roadmap 2024**
+## 🗺️ **Roadmap (Exemplo de Planejamento)**
 
 <table>
 <tr>
@@ -455,93 +498,151 @@ curl http://localhost:8000/circuit-breakers
 <td width="25%">
 
 ### 🚀 **Q2 2024**
-- 📸 **Instagram Integration**
-- 💼 **LinkedIn Integration**
-- 🎨 **Advanced AI Models**
-- 📊 **Analytics Dashboard**
-- 🔄 **Auto-responses**
-- 🌐 **Multi-language**
+- [ ] 📸 **Instagram Integration**
+- [ ] 💼 **LinkedIn Integration**
+- [ ] 🎨 **Advanced AI Models**
+- [ ] 📊 **Analytics Dashboard**
+- [ ] 🔄 **Auto-responses**
+- [ ] 🌐 **Multi-language**
 
 </td>
 <td width="25%">
 
 ### 🎵 **Q3 2024**
-- 🎵 **TikTok Integration**
-- 🎬 **Video Content AI**
-- 📱 **Mobile App**
-- 🤝 **Team Collaboration**
-- 📈 **Advanced Analytics**
-- 🔗 **Zapier Integration**
+- [ ] 🎵 **TikTok Integration**
+- [ ] 🎦 **Video Content AI**
+- [ ] 📱 **Mobile App**
+- [ ] 🤝 **Team Collaboration**
+- [ ] 📈 **Advanced Analytics**
+- [ ] 🔗 **Zapier Integration**
 
 </td>
 <td width="25%">
 
 ### 🌟 **Q4 2024**
-- 🧠 **Custom AI Training**
-- 🎯 **A/B Testing**
-- 📊 **Business Intelligence**
-- 🔐 **Enterprise Security**
-- ☁️ **Cloud Deployment**
-- 💰 **Monetization Tools**
+- [ ] 🧠 **Custom AI Training**
+- [ ] 🎯 **A/B Testing**
+- [ ] 📊 **Business Intelligence**
+- [ ] 🔐 **Enterprise Security**
+- [ ] ☁️ **Cloud Deployment**
+- [ ] 💰 **Monetization Tools**
 
 </td>
 </tr>
 </table>
 
-## 🤝 **Contribuindo**
+---
 
-Adoramos contribuições! Veja como você pode ajudar:
+## 💼 **Contrate Meus Serviços**
 
-### 🎯 **Como Contribuir**
+<div align="center">
 
-1. **🍴 Fork** o projeto
-2. **🌿 Crie** uma branch (`git checkout -b feature/AmazingFeature`)
-3. **💾 Commit** suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. **📤 Push** para a branch (`git push origin feature/AmazingFeature`)
-5. **🔄 Abra** um Pull Request
+### 🚀 **Precisa de um Sistema Como Este Funcionando?**
 
-### 🐛 **Reportando Bugs**
+**Sou um desenvolvedor especializado em automação e IA, disponível para projetos personalizados!**
 
-Encontrou um bug? [Abra uma issue](https://github.com/cauaprjct/socialbot-ai/issues) com:
-- 📝 Descrição detalhada
-- 🔄 Passos para reproduzir
-- 💻 Ambiente (OS, Python version, etc.)
-- 📸 Screenshots (se aplicável)
+</div>
 
-### 💡 **Sugerindo Features**
+<table>
+<tr>
+<td width="50%">
 
-Tem uma ideia incrível? [Abra uma issue](https://github.com/cauaprjct/socialbot-ai/issues) com:
-- 🎯 Descrição da feature
-- 🤔 Por que seria útil
-- 💭 Como deveria funcionar
+### 🎯 **O Que Posso Desenvolver Para Você:**
 
-## 📄 **Licença**
+- 🤖 **Bots de Automação Completos**
+  - Sistemas multi-plataforma (Twitter, Instagram, LinkedIn, TikTok)
+  - Integração com APIs de IA (OpenAI, Hugging Face, Claude)
+  - Dashboard web personalizado
+  - Analytics e relatórios avançados
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+- 🏗️ **Arquitetura Enterprise**
+  - Sistemas escaláveis e robustos
+  - Microserviços com Docker/Kubernetes
+  - CI/CD automatizado
+  - Monitoramento e observabilidade
 
-## 🙏 **Agradecimentos**
+- 🧠 **Soluções de IA Personalizadas**
+  - Chatbots inteligentes
+  - Análise de sentimento
+  - Geração de conteúdo automática
+  - Modelos de ML customizados
 
-- 🤗 **Hugging Face** pela incrível biblioteca de transformers
-- 🔮 **OpenAI** pelos modelos GPT revolucionários
-- 🐦 **Twitter** pela API robusta
-- 🐍 **Python Community** pelo ecossistema fantástico
-- 🌟 **Todos os contribuidores** que tornam este projeto possível
+</td>
+<td width="50%">
 
-## 📞 **Suporte**
+### 💰 **Pacotes de Serviços:**
 
-- 📖 **Documentação**: [Wiki do Projeto](https://github.com/cauaprjct/socialbot-ai/wiki)
-- 💬 **Discussões**: [GitHub Discussions](https://github.com/cauaprjct/socialbot-ai/discussions)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/cauaprjct/socialbot-ai/issues)
-- 📧 **Email**: socialbot.ai@gmail.com
+#### 🥉 **Básico** - R$ 2.500
+- Bot para 1 plataforma
+- Geração de conteúdo com IA
+- Dashboard simples
+- Documentação básica
+- **Entrega: 2-3 semanas**
+
+#### 🥈 **Profissional** - R$ 5.000
+- Bot multi-plataforma (2-3 redes)
+- IA avançada + Analytics
+- Dashboard completo
+- Sistema de agendamento
+- **Entrega: 4-6 semanas**
+
+#### 🥇 **Enterprise** - R$ 10.000+
+- Sistema completo personalizado
+- Arquitetura escalável
+- Integrações customizadas
+- Suporte e manutenção
+- **Entrega: 8-12 semanas**
+
+</td>
+</tr>
+</table>
+
+### 📞 **Entre em Contato:**
+
+<div align="center">
+
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5511999999999)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu.email@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seulinkedin)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/seuusuario)
+
+**💬 Vamos conversar sobre seu projeto! Respondo em até 24h.**
+
+</div>
+
+---
+
+## 🌟 **Por Que Escolher Meus Serviços?**
+
+<div align="center">
+
+| ✅ **Vantagens** | 📋 **Detalhes** |
+|------------------|------------------|
+| 🎯 **Especialização** | +5 anos desenvolvendo sistemas de automação |
+| 🚀 **Entrega Rápida** | Metodologia ágil com entregas semanais |
+| 🔧 **Código Limpo** | Padrões de qualidade enterprise |
+| 📚 **Documentação** | Documentação completa e treinamento |
+| 🔧 **Suporte** | 3 meses de suporte gratuito incluído |
+| 💰 **Garantia** | 100% do dinheiro de volta se não ficar satisfeito |
+
+</div>
 
 ---
 
 <div align="center">
 
-### 🌟 **Se este projeto te ajudou, deixe uma ⭐!**
+## 🎯 **Este Template Demonstra Minhas Habilidades**
 
-**Feito com ❤️ por [cauaprjct](https://github.com/cauaprjct)**
+**Se você chegou até aqui, já viu que tenho o conhecimento técnico necessário para criar sistemas complexos e bem documentados.**
 
-[⬆️ Voltar ao topo](#-socialbot-ai---bot-de-automação-para-redes-sociais)
+**🚀 Que tal transformarmos esta demonstração em um projeto real para sua empresa?**
+
+⭐ **Dê uma estrela** se gostou do template
+🤝 **Entre em contato** para discutir seu projeto
+💬 **Compartilhe** com quem precisa de automação
+
+**Feito com ❤️ e muito ☕ por [cauaprjct](https://github.com/cauaprjct)**
+
+*"Transformando ideias em código que funciona!"*
 
 </div>
